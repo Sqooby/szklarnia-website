@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szklane Wspomnienia - Fotografia Oranżerii</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="public/logo.jpeg" alt="Szklane Wspomnienia">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">O Mnie</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#services" class="nav-link">Usługi</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="glass-pane glass-pane-1"></div>
+            <div class="glass-pane glass-pane-2"></div>
+            <div class="glass-pane glass-pane-3"></div>
+        </div>
+        <div class="hero-logo">
+            <img src="public/logo.jpeg" alt="Szklane Wspomnienia">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-line" data-delay="0">Światło.</span>
+                    <span class="hero-title-line" data-delay="1">Szkło.</span>
+                    <span class="hero-title-line" data-delay="2">Wspomnienia.</span>
+                </h1>
+                <p class="hero-subtitle">Fotografia oranżerii i botaniczna</p>
+            </div>
+            <div class="hero-scroll">
+                <span>Przewiń w dół</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        <div class="botanical-decoration botanical-leaf-1">
+            <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 10C50 10 30 30 30 60C30 80 40 100 50 110C60 100 70 80 70 60C70 30 50 10 50 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M50 20L35 50" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <path d="M50 30L65 55" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <path d="M50 40L38 65" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <path d="M50 50L62 75" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <div class="botanical-decoration botanical-leaf-2">
+            <svg viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="30" r="25" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                <circle cx="40" cy="30" r="18" stroke="currentColor" stroke-width="1" fill="none"/>
+                <circle cx="40" cy="30" r="11" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                <line x1="40" y1="55" x2="40" y2="90" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="public/KasiaMichał (3).jpg" alt="Para w szklarni">
+                        <div class="frame-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">Poznaj historię</span>
+                    <h2 class="section-title">Uchwycone w szkle</h2>
+                    <div class="about-text">
+                        <p>Witaj w Szklanych Wspomnieniach - miejscu, gdzie światło spotyka się ze szkłem, a natura z architekturą. Specjalizuję się w fotografii oranżerii, ogrodów botanicznych i przestrzeni pełnych zieleni.</p>
+                        <p>Każda szklarnia to unikalna opowieść o świetle przesączającym się przez szklane tafle, o delikatnych cieniach na liściach, o atmosferze spokoju i piękna natury chronionej pod szklanym dachem.</p>
+                        <p>Moją misją jest uchwycenie efemerycznej magii tych przestrzeni - od historycznych oranżerii pałacowych po współczesne szklarnie ogrodowe.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Skontaktuj się</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Moje prace</span>
+                <h2 class="section-title">Portfolio</h2>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item portfolio-item-large" data-category="greenhouse">
+                    <div class="portfolio-image" style="background-image: url('public/KasiaMichał (1).jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Sesje Parowe</span>
+                            <h3 class="portfolio-title">Romantyczne Chwile</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="botanical">
+                    <div class="portfolio-image" style="background-image: url('public/beautiful-couple-spend-time-summer-park.jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Natura</span>
+                            <h3 class="portfolio-title">W Zieleni</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="architecture">
+                    <div class="portfolio-image" style="background-image: url('public/KasiaMichał (2).jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Romantyzm</span>
+                            <h3 class="portfolio-title">Światło i Cienie</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="botanical">
+                    <div class="portfolio-image" style="background-image: url('public/people-by-river-delicious-healthy-summer-picnic-grass-fruits-blancet.jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Plener</span>
+                            <h3 class="portfolio-title">Letnie Piknikiи</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item portfolio-item-wide" data-category="greenhouse">
+                    <div class="portfolio-image" style="background-image: url('public/KasiaMichał (4).jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Sesje Parowe</span>
+                            <h3 class="portfolio-title">Magia Momentu</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="architecture">
+                    <div class="portfolio-image" style="background-image: url('public/couple-christmas.jpg');">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-category">Świąteczne</span>
+                            <h3 class="portfolio-title">Zimowe Ciepło</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <div class="section-header-centered">
+                <span class="section-label">Co oferuję</span>
+                <h2 class="section-title">Usługi</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="15" width="40" height="30" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="8" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="5" fill="currentColor"/>
+                            <path d="M20 10L25 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M30 8L30 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M40 10L35 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Sesje Fotograficzne</h3>
+                    <p class="service-description">Profesjonalne sesje w oranżeriach, ogrodach botanicznych i przestrzeniach szklarniowych. Dokumentacja architektury i natury.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 10L45 20L45 40L30 50L15 40L15 20L30 10Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M30 10L30 50" stroke="currentColor" stroke-width="2"/>
+                            <path d="M15 20L45 40" stroke="currentColor" stroke-width="2"/>
+                            <path d="M45 20L15 40" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Fotografia Eventowa</h3>
+                    <p class="service-description">Dokumentacja wydarzeń w wyjątkowych, szklarnianych lokalizacjach. Śluby, przyjęcia, wernisaże w otoczeniu natury.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="20" width="30" height="25" stroke="currentColor" stroke-width="2"/>
+                            <rect x="20" y="15" width="20" height="30" stroke="currentColor" stroke-width="2"/>
+                            <line x1="25" y1="25" x2="35" y2="25" stroke="currentColor" stroke-width="2"/>
+                            <line x1="25" y1="30" x2="35" y2="30" stroke="currentColor" stroke-width="2"/>
+                            <line x1="25" y1="35" x2="35" y2="35" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Fine Art Prints</h3>
+                    <p class="service-description">Limitowane edycje artystycznych odbitek na wysokiej jakości papierze. Gotowe do oprawy i ekspozycji w Twoim wnętrzu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-label">Porozmawiajmy</span>
+                    <h2 class="section-title">Skontaktuj się</h2>
+                    <p class="contact-text">Planujesz sesję w oranżerii? Szukasz fotografa do swojego ogrodu botanicznego? A może chcesz zamówić odbitkę do swojego wnętrza?</p>
+                    <p class="contact-text">Napisz do mnie - z przyjemnością porozmawiamy o Twoim projekcie.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:kontakt@szklanewspomnienia.pl" class="contact-link">kontakt@szklanewspomnienia.pl</a>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-label">Telefon</span>
+                            <a href="tel:+48123456789" class="contact-link">+48 123 456 789</a>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-label">Instagram</span>
+                            <a href="https://instagram.com/szklanewspomnienia" class="contact-link" target="_blank">@szklanewspomnienia</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Imię i nazwisko</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Temat</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Wiadomość</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Wyślij wiadomość</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="public/logo.jpeg" alt="Szklane Wspomnienia">
+            </div>
+            <p class="footer-text">&copy; 2025 Szklane Wspomnienia. Wszystkie prawa zastrzeżone.</p>
+            <div class="footer-botanical">
+                <svg viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 20C20 20 40 10 60 20C80 30 100 10 120 20C140 30 160 10 180 20" stroke="currentColor" stroke-width="1" fill="none"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="60" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="120" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="180" cy="20" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
